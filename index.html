@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ce4fccfd6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="first-part">Venkat<span class="second-part"> sai</span></h1>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Porfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark icon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am <span>Venkat sai</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!--------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://res.cloudinary.com/djk1yczb2/image/upload/v1684743781/IMG_20220715_222243_nw2j6e.png"
+                    class="image" width="30%" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a scholar at SVCET pursuing a B.Tech degree in Mechanical Engineering (3rd year).<br>
+                        A Frontend Developer<br>
+                        I'm a code enthusiast that enjoys experimenting with new technologies and building web apps, currently learning MERN stack web development.
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('certifications')">Certifications</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developemnt</span><br>Designing Web/App interfaces</li>
+                            <li><span>Database Management</span><br>Managing databases</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="certifications">
+                        <ul>
+                            <li><span>Aug 2022</span><br>Static Web design <a href="https://certificates.ccbp.in/academy/static-website?id=ZDYMBPEVXY" target="_blank"><span>Click Here</span></a></li>
+                            <li><span>NOv 2022</span><br>Designing Web/App interfaces<a href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=IWJQDVSZKP" target="_blank"><span>Click Here</span></a></li>
+                            <li><span>Feb 2023</span><br>Programming Foundations with Python<a href="https://certificates.ccbp.in/academy/programming-foundations-with-python?id=SLKEHOUKMP" target="_blank"><span>Click Here</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SCC from Srichaitanya school</li>
+                            <li><span>2020</span><br>12th from Krishna Chaitanya Junior College</li>
+                            <li><span>2021 - current</span><br>B.Tech from SVCET Chittoor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Most of the Employes may reaches my connections in the Web Design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design</h2>
+                <p>Most of the Employes may reaches my connections in the Web Design</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Design</h2>
+                <p>Most of the Employes may reaches my connections in the Web Design</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------Portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://res.cloudinary.com/djk1yczb2/image/upload/v1684776379/IMG_20230522_225234_ajjxcf.jpg"/>
+                <div class="layer">
+                    <h2>Web Design</h2>
+                    <p>This Website may shows the most delicious food in the restaurants</p>
+                    <a href="https://venkatmenupage.ccbp.tech" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/djk1yczb2/image/upload/v1684776387/IMG_20230522_225308_bvxef1.jpg"/>
+                <div class="layer">
+                    <h2>Web Design</h2>
+                    <p>This Website may shows the most delicious food in the restaurants</p>
+                    <a href="https://dospage.ccbp.tech/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://res.cloudinary.com/djk1yczb2/image/upload/v1684776396/IMG_20230522_225331_aa9ioe.jpg"/>
+                <div class="layer">
+                    <h2>Web Design</h2>
+                    <p>This Website may shows the most delicious food in the restaurants</p>
+                    <a href="https://scissorsgame.ccbp.tech/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=""sub-title>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> venkatsaipelluru@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9705441781</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100058536871472&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/venkat_pelluru" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/pelluruvenkat/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pelluru-venkat-sai-9881aa245" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="IMAGES/my-cv.pdf.jpg" download class="btn btn2">Download CV</a>
+            </div>
+        
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required/>
+                    <input type="email" name="Email" placeholder="Your Email" required/>
+                    <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> PELLURU VENKAT SAI. All rights are reserved. </p>
+    </div>
+    
+</div>
+
+<script src="script.js">
+    
+</script>
+</body>
+</html>
